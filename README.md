@@ -7,7 +7,7 @@ To build a simple web application to encrypt and decrypt text using strong encry
 #### Step 1: Set up the environment
 
 1. **Install Flask and cryptography:**
-   ```
+   ```python
    pip install Flask cryptography
    ```
 
@@ -25,24 +25,26 @@ To build a simple web application to encrypt and decrypt text using strong encry
 
 **app.py**
 ```
-refer code at app.py in text encryption decryption directory
+# refer code at app.py in text encryption decryption directory
 ```
 
 #### Step 3: Create the HTML template
 
 **templates/index.html**
-``` refer code at templates/index.html
+```
+#refer code at templates/index.html
 ```
 
 #### Step 4: Add some basic styling
 
 **static/styles.css**
-``` refer code at static/styles.css
+```
+# refer code at static/styles.css
 ```
 
 #### Step 5: Run the application
 
-```
+```python
 python app.py
 ```
 
@@ -102,7 +104,7 @@ To create a key logger to understand how they work and develop strategies for de
 
    - Define a class for the key logger:
      ```
-    refer code at keylogger.py
+     # refer code at keylogger.py
      ```
 
 3. **Run the Key Logger**
